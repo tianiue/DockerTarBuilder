@@ -5,7 +5,7 @@ on:
       docker_images:
         description: '请填写docker镜像名称 多个用英文逗号分开'
         required: true
-        default: 'ghcr.io/stirling-tools/stirling-pdf:latest-fat,keking/kkfileview:latest'  # 设置默认的 Docker 镜像列表
+        default: 'ghcr.io/stirling-tools/stirling-pdf:latest-fat,ghcr.io/home-assistant/home-assistant:latest,wukongdaily/box:latest,wjz304/syno-kodi:latest,henrygd/beszel:latest,justsong/one-api:latest,taksss/php-epg:latest,toney0513/zubotest:latest,matrixseven/file-transfer-go:latest,keking/kkfileview:latest'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
