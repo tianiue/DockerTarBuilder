@@ -6,7 +6,7 @@ on:
       docker_images:
         description: '请填写docker镜像名称，多个用英文逗号分开'
         required: true
-        default: 'ghcr.io/openlistteam/openlist-git:latest-aio,ghcr.io/moontechlab/lunatv:latest,ghcr.io/jxxghp/moviepilot:latest,ghcr.io/wg-easy/wg-easy:latest,alturismo/xteve_guide2go:latest,whyour/qinglong:latest,linuxserver/qbittorrent:latest,itefuir/alist-strm:latest,jellyfin/jellyfin:latest,emby/embyserver:latest,xiaoyaliu/alist:latest,moelin/1panel:latest,gdy666/lucky:latest,badapple9/speedtest-x:latest'
+        default: 'ghcr.io/openlistteam/openlist-git:latest-aio,ghcr.io/moontechlab/lunatv:latest,ghcr.io/jxxghp/moviepilot:latest,ghcr.io/wg-easy/wg-easy:latest,alturismo/xteve_guide2go:latest,whyour/qinglong:latest,linuxserver/qbittorrent:latest,linuxserver/transmission:latest,jellyfin/jellyfin:latest,emby/embyserver:latest,xiaoyaliu/alist:latest,moelin/1panel:latest,gdy666/lucky:latest,badapple9/speedtest-x:latest'
 
 jobs:
   pull_and_package:
